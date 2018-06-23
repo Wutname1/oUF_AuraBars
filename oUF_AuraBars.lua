@@ -162,7 +162,7 @@ local function CreateAuraBar(oUF, anchor)
 	if auraBarParent.spellTimeObject then
 		statusBar.spelltime:SetFontObject(auraBarParent.spellTimeObject)
 	else
-		statusBar.spelltime:SetFont(auraBarParent.spellTimeFont or [[Fonts\\ARIAL.TTF]], auraBarParent.spellTimeSize or 10)
+		statusBar.spelltime:SetFont(auraBarParent.spellTimeFont or [[Fonts\ARIAL.TTF]], auraBarParent.spellTimeSize or 10)
 	end
 	statusBar.spelltime:SetTextColor(1 ,1, 1)
 	statusBar.spelltime:SetJustifyH'RIGHT'
@@ -173,7 +173,7 @@ local function CreateAuraBar(oUF, anchor)
 	if auraBarParent.spellNameObject then
 		statusBar.spellname:SetFontObject(auraBarParent.spellNameObject)
 	else
-		statusBar.spellname:SetFont(auraBarParent.spellNameFont or [[Fonts\\ARIAL.TTF]], auraBarParent.spellNameSize or 10)
+		statusBar.spellname:SetFont(auraBarParent.spellNameFont or [[Fonts\ARIAL.TTF]], auraBarParent.spellNameSize or 10)
 	end
 	statusBar.spellname:SetTextColor(1, 1, 1)
 	statusBar.spellname:SetJustifyH'LEFT'
