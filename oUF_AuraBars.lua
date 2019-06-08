@@ -52,7 +52,7 @@
 			updated. Is being called every UNIT_AURA for the <element>'s unit.
 --]]
 local _, ns = ...
-local oUF = ns.oUF or oUF
+local oUF = (ns.oUF or oUF) or (ns.SUF or SUF)
 assert(oUF, 'oUF_AuraBars was unable to locate oUF install.')
 
 --[[
